@@ -37,5 +37,6 @@
     }
 </script>
 
-
-<style src="./Home.css" lang="css" scoped />
+<style scoped>
+    @import './Home.css';
+</style>
