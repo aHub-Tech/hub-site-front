@@ -5,9 +5,9 @@
         <header>
             <div class="header_container">
                 <img src="logo.png" alt="">
-                <nuxt-link class="header_link" to="#">INICIO</nuxt-link>
-                <nuxt-link class="header_link" to="#">QUERO PARTICIPAR</nuxt-link>
-                <nuxt-link class="header_link" to="#">BLOG</nuxt-link>
+                <nuxt-link class="header_link" to="/">INICIO</nuxt-link>
+                <a class="header_link" href="https://discord.com/invite/RMDSHVkDmE" target="_blank">QUERO PARTICIPAR</a>
+                <a class="header_link" href="https://blog.ahub.tech/" target="_blank">BLOG</a>
                 <i @click="isMenuOpen = !isMenuOpen" class="mdi mdi-menu open_mobile_menu"></i>
             </div>
         </header>
@@ -16,9 +16,9 @@
             <div class="header_mobile_menu">
                 <i @click="isMenuOpen = !isMenuOpen" class="mdi mdi-close close_menu"></i>
             </div>
-            <nuxt-link class="header_link" to="#">INICIO</nuxt-link>
-            <nuxt-link class="header_link" to="#">QUERO PARTICIPAR</nuxt-link>
-            <nuxt-link class="header_link" to="#">BLOG</nuxt-link>
+            <nuxt-link class="header_link" to="/">INICIO</nuxt-link>
+            <a class="header_link" href="https://discord.com/invite/RMDSHVkDmE" target="_blank">QUERO PARTICIPAR</a>
+            <a class="header_link" href="https://blog.ahub.tech/" target="_blank">BLOG</a>
         </div>
 
         <Nuxt />
