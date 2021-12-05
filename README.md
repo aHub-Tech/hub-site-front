@@ -1,10 +1,10 @@
 <h1 align="center">
-    Name of The Project
+    HubTech
 </h1>
 <details>
   <summary>🇺🇸 English version</summary>
 
-  <p align="center"> Project information - Hub Tech </p>
+  <p align="center"> Project information - HubTech </p>
 
   <p align="center">
   <a href="#objective">Objective</a> •
