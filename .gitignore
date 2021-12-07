@@ -85,3 +85,7 @@ sw.*
 
 # Vim swap files
 *.swp
+
+.env
+.env.*
+!.env.exemplo
