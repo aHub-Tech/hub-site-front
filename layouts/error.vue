@@ -1,19 +1,10 @@
 <template>
-  <main class="main">
-    <template v-if="error.statusCode === 404">
-      <div class="content">
-        <h1 class="title">OPS, PÁGINA NÃO ENCONTRADA...</h1>
-        <img class="image" src="/404.png" />
-        <a class="link" href="/">VOLTAR AO INICIO</a>
-      </div>
-    </template>
-    <template v-else>
-      <div class="content">
-        <h1 class="title">OPS, ERRO {{ error.statusCode }}...</h1>
-        <img class="image" :src="`https://http.cat/${error.statusCode}`" />
-        <a class="link" href="/">VOLTAR AO INICIO</a>
-      </div>
-    </template>
+  <main class="main" v-if="error.statusCode === 404">
+    <div class="content">
+      <h1 class="title">OPS, PÁGINA NÃO ENCONTRADA...</h1>
+      <img class="image" src="/404.png" />
+      <a class="link" href="/">VOLTAR AO INICIO</a>
+    </div>
   </main>
 </template>
 
