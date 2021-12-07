@@ -5,17 +5,17 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from './components/nuxt-error.vue'
+import NuxtError from '../layouts/error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_70013c8f from 'nuxt_plugin_plugin_70013c8f' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_workbox_77553fce from 'nuxt_plugin_workbox_77553fce' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_05a2864e from 'nuxt_plugin_metaplugin_05a2864e' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_axios_553bcf32 from 'nuxt_plugin_axios_553bcf32' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_31187b12 from 'nuxt_plugin_plugin_31187b12' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_workbox_254b4de9 from 'nuxt_plugin_workbox_254b4de9' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_195ec808 from 'nuxt_plugin_metaplugin_195ec808' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_axios_1204a80d from 'nuxt_plugin_axios_1204a80d' // Source: ./axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -65,7 +65,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"HubTech - %s","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"hubsite"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"hubsite"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"hubsite"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.png"},{"rel":"stylesheet","href":"\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@6.5.95\u002Fcss\u002Fmaterialdesignicons.min.css"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.b58dab12.json","hid":"manifest"}],"style":[],"script":[],"title":"hubsite","htmlAttrs":{"lang":"en"}},
+    head: {"titleTemplate":"HubTech - %s","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.png"},{"rel":"stylesheet","href":"\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@6.5.95\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -179,20 +179,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_70013c8f === 'function') {
-    await nuxt_plugin_plugin_70013c8f(app.context, inject)
+  if (typeof nuxt_plugin_plugin_31187b12 === 'function') {
+    await nuxt_plugin_plugin_31187b12(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_77553fce === 'function') {
-    await nuxt_plugin_workbox_77553fce(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_254b4de9 === 'function') {
+    await nuxt_plugin_workbox_254b4de9(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_05a2864e === 'function') {
-    await nuxt_plugin_metaplugin_05a2864e(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_195ec808 === 'function') {
+    await nuxt_plugin_metaplugin_195ec808(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_553bcf32 === 'function') {
-    await nuxt_plugin_axios_553bcf32(app.context, inject)
+  if (typeof nuxt_plugin_axios_1204a80d === 'function') {
+    await nuxt_plugin_axios_1204a80d(app.context, inject)
   }
 
   // Lock enablePreview in context

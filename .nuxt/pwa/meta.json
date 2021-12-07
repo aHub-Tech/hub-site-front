@@ -21,6 +21,11 @@
       "content": "hubsite"
     },
     {
+      "hid": "description",
+      "name": "description",
+      "content": "```"
+    },
+    {
       "hid": "og:type",
       "name": "og:type",
       "property": "og:type",
@@ -37,16 +42,22 @@
       "name": "og:site_name",
       "property": "og:site_name",
       "content": "hubsite"
+    },
+    {
+      "hid": "og:description",
+      "name": "og:description",
+      "property": "og:description",
+      "content": "```"
     }
   ],
   "link": [
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.b58dab12.json",
+      "href": "/_nuxt/manifest.74a08df2.json",
       "hid": "manifest"
     }
   ],
   "htmlAttrs": {
-    "lang": "en"
+    "lang": "pt-BR"
   }
 }

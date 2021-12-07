@@ -2,13 +2,13 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from './components/nuxt-error.vue'
+import NuxtError from '../layouts/error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\assets\\css\\default.css'
+import '../assets/css/default.css'
 
-import _2339f322 from '..\\layouts\\site\\default.vue'
+import _2339f322 from '../layouts/site/default.vue'
 import _6f6c098b from './layouts/default.vue'
 
 const layouts = { "_site/default": sanitizeComponent(_2339f322),"_default": sanitizeComponent(_6f6c098b) }
