@@ -10,11 +10,7 @@
           TI, conhecerá diversas pessoas e se divertirá muito enquanto aprende e
           ensina!
         </p>
-        <a
-          href="https://discord.com/invite/RMDSHVkDmE"
-          target="_blank"
-          class="discord_btn"
-        >
+        <a :href="discordLink" target="_blank" class="discord_btn">
           <i class="mdi mdi-discord"></i>
           QUERO FAZER PARTE
         </a>
@@ -25,11 +21,7 @@
       <a target="_blank" href="https://github.com/aHub-Tech" class="cover_link">
         <i class="mdi mdi-github"></i>
       </a>
-      <a
-        target="_blank"
-        href="https://discord.com/invite/RMDSHVkDmE"
-        class="cover_link"
-      >
+      <a target="_blank" :href="discordLink" class="cover_link">
         <i class="mdi mdi-discord"></i>
       </a>
     </div>
@@ -42,6 +34,11 @@ export default {
   head() {
     return {
       title: "Inicio",
+    };
+  },
+  data() {
+    return {
+      discordLink: "/discord",
     };
   },
 };
