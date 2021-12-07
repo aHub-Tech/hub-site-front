@@ -52,6 +52,11 @@ export default {
 
   publicRuntimeConfig: {
     baseApi: process.env.BASE_API,
+    discordLink:
+      process.env.DISCORD_LINK || "https://discord.com/invite/RMDSHVkDmE",
   },
-  privateRuntimeConfig: {},
+  privateRuntimeConfig: {
+    discordLink:
+      process.env.DISCORD_LINK || "https://discord.com/invite/RMDSHVkDmE",
+  },
 };
