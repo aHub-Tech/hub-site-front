@@ -26,11 +26,11 @@
   border: 2px solid #222;
   border-radius: 10px;
   overflow: hidden;
-  transition: .1s all ease;
+  transition: .3s all ease;
 }
 
 .item .card:hover {
-  background-color: #222;
+  border: 2px solid #2f2f2f;
 }
 
 .item .card .header .bg {
@@ -75,6 +75,8 @@
 
 .item .card .header .infos .flex .person p:nth-child(3) {
   color: #888888;
+  font-weight: 500;
+  font-size: 14px;
   margin: 0;
 }
 
@@ -106,12 +108,11 @@
 .item .card .content .knowledge ul li {
   list-style: none;
   padding: 5px 10px;
-  background-color: var(--color);
+  background-color: #222;
   border-radius: 3px;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
-  opacity: 0.8;
 }
 
 .item .card .content .contact {
@@ -119,8 +120,9 @@
 }
 
 .item .card .content .contact h4 {
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
+  font-weight: 500;
 }
 
 .item .card .content .contact .buttons {
@@ -133,7 +135,7 @@
 .item .card .content .contact .buttons button {
   color: #fff;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .instagram {
