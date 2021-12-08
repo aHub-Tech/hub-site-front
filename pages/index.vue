@@ -44,4 +44,4 @@ export default {
 };
 </script>
 
-<style src="~/assets/css/pages/Home.css"></style>
+<style src="~/assets/css/pages/Home.css" scoped></style>
