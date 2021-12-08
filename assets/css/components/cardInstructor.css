@@ -1,0 +1,153 @@
+.backend {
+  --color: #3BF79D;
+}
+
+.frontend {
+  --color: #1200E2;
+}
+
+.design {
+  --color: #FF35D3;
+}
+
+.fullstack {
+  --color: #FFD235;
+}
+
+.iot {
+  --color: #FF3535;
+}
+
+.datascience {
+  --color: #FF7E35;
+}
+
+.item .card {
+  border: 2px solid #222;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .1s all ease;
+}
+
+.item .card:hover {
+  background-color: #222;
+}
+
+.item .card .header .bg {
+  height: 90px;
+  background-color: var(--color);
+}
+
+.item .card .header .infos {
+  padding: 10px;
+  margin-top: -65px;
+}
+
+.item .card .header .infos .flex {
+  display: flex;
+  align-items: center;
+}
+
+.item .card .header .infos .flex .person {
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.item .card .header .infos .flex .person h4 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 40px;
+  text-transform: initial;
+}
+
+.item .card .header .infos .flex .person h4::first-letter {
+  text-transform: uppercase;
+}
+
+.item .card .header .infos .flex .person p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.item .card .header .infos .flex .person p:nth-child(3) {
+  color: #888888;
+  margin: 0;
+}
+
+.item .card .header .infos .flex .img img {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  border: 4px solid var(--color);
+}
+
+.item .card .header .infos p {
+  color: #888;
+  font-size: 14px;
+  margin-top: 15px;
+  padding: 0 5px;
+}
+
+.item .card .content {
+  padding: 0 15px 15px;
+}
+
+.item .card .content .knowledge ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.item .card .content .knowledge ul li {
+  list-style: none;
+  padding: 5px 10px;
+  background-color: var(--color);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.item .card .content .contact {
+  margin-top: 20px;
+}
+
+.item .card .content .contact h4 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.item .card .content .contact .buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.item .card .content .contact .buttons button {
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.instagram {
+  color: #F9782B !important;
+}
+
+.twitch {
+  color: #A970FF !important;
+}
+
+.facebook {
+  color: #0080FF !important;
+}
+
+.linkedin {
+  color: #0A66C2 !important;
+}

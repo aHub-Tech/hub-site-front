@@ -22,3 +22,25 @@ body,
 html {
     overflow-x: hidden !important;
 }
+
+*::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 3px;
+  height: 0;
+  background-color: var(--background);
+  overflow: visible;
+}
+
+*::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background: #f73b91;
+}
+
+*::-webkit-scrollbar-button, *::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
