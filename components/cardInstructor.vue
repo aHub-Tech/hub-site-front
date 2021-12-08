@@ -9,7 +9,7 @@
               <img :src="tutore.photo" :alt="tutore.name" class="imagem" />
             </div>
             <div class="person">
-              <h4>{{ tutore.name }}</h4>
+              <h4>{{ tutore.title }}</h4>
               <p>{{ tutore.name }}</p>
               <p>
                 <span>{{ tutore.discord }}</span>
