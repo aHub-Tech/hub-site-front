@@ -28,7 +28,7 @@ contact:
     value: asdasdasdasd
   - name: facebook
     value: asdasdasd
-  - name: instagram
+  - name: twitter
     value: asdasdasd
   - name: linkedin
     value: asdasdasd
