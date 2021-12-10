@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="header_container">
-        <img src="logo.png" alt="HUB" />
+        <img src="/logo.png" alt="HUB" />
 
         <template v-for="(item, index) in menus">
           <nuxt-link
