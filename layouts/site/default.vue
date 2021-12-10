@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="header_container">
-        <img src="logo.png" alt="HUB" />
+        <img src="/logo.png" alt="HUB" />
 
         <template v-for="(item, index) in menus">
           <nuxt-link
@@ -10,6 +10,7 @@
             v-if="item.type === 'page'"
             class="header_link"
             :to="item.to"
+            :title="item.label"
           >
             {{ item.label }}
           </nuxt-link>
@@ -19,6 +20,8 @@
             class="header_link"
             :href="item.to"
             :target="item.target || '_blank'"
+            rel="noopener"
+            :title="item.label"
           >
             {{ item.label }}
           </a>
@@ -44,6 +47,7 @@
           v-if="item.type === 'page'"
           class="header_link"
           :to="item.to"
+          :title="item.label"
         >
           {{ item.label }}
         </nuxt-link>
@@ -53,6 +57,8 @@
           class="header_link"
           :href="item.to"
           :target="item.target || '_blank'"
+          rel="noopener"
+          :title="item.label"
         >
           {{ item.label }}
         </a>

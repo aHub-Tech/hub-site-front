@@ -18,10 +18,22 @@
       <img src="cover.svg" alt="" />
     </div>
     <div class="cover_links">
-      <a target="_blank" href="https://github.com/aHub-Tech" class="cover_link">
+      <a
+        target="_blank"
+        href="https://github.com/aHub-Tech"
+        class="cover_link"
+        title="@aHub-Tech"
+        rel="noopener"
+      >
         <i class="mdi mdi-github"></i>
       </a>
-      <a target="_blank" :href="discordLink" class="cover_link">
+      <a
+        target="_blank"
+        :href="discordLink"
+        title="DISCORD"
+        class="cover_link"
+        rel="noopener"
+      >
         <i class="mdi mdi-discord"></i>
       </a>
     </div>
