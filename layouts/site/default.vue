@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="header_container">
-        <img src="logo.png" alt="HUB" />
+        <img src="/logo.png" alt="HUB" />
 
         <template v-for="(item, index) in menus">
           <nuxt-link
@@ -77,7 +77,7 @@ export default {
       // type [open_link] - usa tag A href
       return [
         { type: "page", to: "/", label: "INICIO" },
-        { type: "page", to: "/tutors", label: "TUTORES" },
+        { type: "page", to: "/tutores", label: "TUTORES" },
         {
           type: "open_link",
           to: "/discord",
