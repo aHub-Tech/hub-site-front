@@ -9,19 +9,19 @@
           disposição de ajudar outros membros, conforme seu nível de
           conhecimento em certas áreas.
         </p>
-        <input
+        <!-- <input
           type="text"
           name="search"
           class="search"
           placeholder="Pesquisar"
-        />
+        /> -->
       </div>
       <div class="content">
         <div class="grid">
           <card-instructor
             v-for="(tutore, index) in tutores"
             :key="`${index}-${tutore.name}_tutore`"
-            :tutore="tutore"
+            :tutor="tutore"
           />
         </div>
       </div>
@@ -47,29 +47,7 @@ export default {
     };
   },
   data() {
-    return {
-      articles: [],
-      stacks: [
-        {
-          name: "backend",
-        },
-        {
-          name: "frontend",
-        },
-        {
-          name: "fullstack",
-        },
-        {
-          name: "iot",
-        },
-        {
-          name: "design",
-        },
-        {
-          name: "datascience",
-        },
-      ],
-    };
+    return {};
   },
   computed: {},
 };
