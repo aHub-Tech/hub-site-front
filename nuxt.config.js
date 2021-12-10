@@ -9,6 +9,11 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [
+      { rel: "preconnect", href: "https://ahub.tech" },
+      { rel: "preconnect", href: "https://cdn.jsdelivr.net" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
+
       { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
       {
         rel: "stylesheet",
@@ -44,6 +49,9 @@ export default {
   pwa: {
     manifest: {
       lang: "pt-BR",
+    },
+    meta: {
+      theme_color: "#121214",
     },
   },
 
