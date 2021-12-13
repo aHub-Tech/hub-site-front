@@ -83,7 +83,7 @@ export default {
       // type [open_link] - usa tag A href
       return [
         { type: "page", to: "/", label: "INICIO" },
-        { type: "page", to: "/tutors", label: "TUTORES" },
+        { type: "page", to: "/tutores", label: "TUTORES" },
         {
           type: "open_link",
           to: "/discord",
