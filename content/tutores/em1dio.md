@@ -14,9 +14,10 @@ knowledges:
   - Nodejs
   - Typescript
   - Python
-  - C
   - MongoDb
   - SQL
+  - VueJs
+  - NuxtJs
 
 contact:
   - name: instagram
