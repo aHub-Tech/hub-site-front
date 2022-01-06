@@ -13,6 +13,7 @@ resume:
 knowledges:
   - Nodejs
   - Typescript
+  - NestJs
   - Python
   - MongoDb
   - SQL
