@@ -1,0 +1,84 @@
+.cover {
+  width: 100%;
+  margin-top: 150px;
+  display: block
+}
+
+.cover .cover_container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.cover .cover_container .head h4 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cover .cover_container .head h4 span {
+  color: #FFD235;
+}
+
+.cover .cover_container .head p {
+  font-size: 18px;
+  color: #888888;
+}
+
+.cover .cover_container .head .search {
+  padding: 16px;
+  background-color: #222;
+  color: #f5f5f5;
+  border-radius: 6px;
+  border: none;
+  margin-top: 30px;
+  font-size: 14px;
+  width: 350px;
+  height: 44px;
+}
+
+.cover .cover_container .content {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.cover .cover_container .content .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 1320px) {
+  .cover .cover_container {
+    width: 900px;
+  }
+
+  .cover .cover_container .content .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 920px) {
+  .cover .cover_container {
+    width: 600px
+  }
+
+  .cover .cover_container .content .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 620px) {
+  .cover .cover_container {
+    width: 400px;
+    padding: 10px;
+  }
+
+  .cover .cover_container .content .grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cover .cover_container {
+    width: 100%;
+    padding: 10px;
+  }
+}
