@@ -8,9 +8,8 @@ updates:
       time: '00:00'
     open-pull-requests-limit: 10
     reviewers:
-      - deverebor
-    assignees:
-      - deverebor
+      - caio-emidio
+      - daviprm
     commit-message:
       prefix: fix
       prefix-development: chore
@@ -23,9 +22,8 @@ updates:
       time: '00:00'
     open-pull-requests-limit: 10
     reviewers:
-      - deverebor
-    assignees:
-      - deverebor
+      - caio-emidio
+      - daviprm
     commit-message:
       prefix: fix
       prefix-development: chore
