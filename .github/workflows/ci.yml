@@ -17,11 +17,11 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [16.04]
+        node: [16.13.2]
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
 
       - name: Setup node env 🏗
         uses: actions/setup-node@v2.5.1
@@ -35,7 +35,7 @@ jobs:
 
       - name: Cache node_modules 📦
         uses: actions/cache@v2.1.7
-        id: npm-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        id: npm-cache
         with:
           path: ${{ steps.npm-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
@@ -45,5 +45,8 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm i
 
-      - name: Run tests 🧪
-        run: npm run test
+      - name: Run Cypress tests 🧪
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
+          start: npm start
