@@ -11,14 +11,14 @@ description: Bacharel em Ciência da Computação, Streamer e Programador com ma
 resume:
   link: https://em1.tech
 knowledges:
-  - Nodejs
+  - Node.js
   - Typescript
-  - NestJs
+  - NestJS
   - Python
   - MongoDb
   - SQL
-  - VueJs
-  - NuxtJs
+  - Vue.js
+  - Nuxt.js
 
 contact:
   - name: instagram

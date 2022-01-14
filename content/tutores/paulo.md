@@ -11,9 +11,9 @@ description: Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia d
 resume:
   link: LinkParaOCV
 knowledges:
-  - VUEJS
+  - VueJS
   - Laravel
-  - Html5
+  - HTML5
   - Typescript
 contact:
   - name: instagram

@@ -218,6 +218,10 @@ export default {
   border-radius: 10px;
   overflow: hidden;
   transition: 0.3s all ease;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .item .card:hover {
@@ -271,11 +275,20 @@ export default {
   margin: 0;
 }
 
-.item .card .header .infos .flex .img img {
+.item .card .header .infos .flex .img {
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 50%;
   width: 83px;
   height: 83px;
+}
+
+.item .card .header .infos .flex .img img {
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   border: 4px solid var(--color);
+  object-fit: cover;
 }
 
 .item .card .header .infos p {
@@ -287,18 +300,26 @@ export default {
 
 .item .card .content {
   padding: 0 15px 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item .card .content .knowledge {
+  padding-bottom: 18px;
 }
 
 .item .card .content .knowledge ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: center;
+  gap: 8px;
   margin-top: 10px;
 }
 
 .item .card .content .knowledge ul li {
   list-style: none;
-  padding: 5px 10px;
+  padding: 8px 16px;
   background-color: #222;
   border-radius: 3px;
   color: #fff;
@@ -308,6 +329,12 @@ export default {
 
 .item .card .content .contact {
   margin-top: 20px;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .item .card .content .contact h4 {
