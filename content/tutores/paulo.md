@@ -5,13 +5,13 @@ name: PauloPc
 discord: "paulopc#8026"
 photo: https://github.com/pcbrsites.png
 IsVerified: true
-hasDiploma: true
+hasFormed: true
 isMVP: true
 description: Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia de Software
 resume:
   link: LinkParaOCV
 knowledges:
-  - VueJS
+  - Vue.js
   - Laravel
   - HTML5
   - Typescript
