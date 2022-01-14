@@ -330,7 +330,9 @@ export default {
 }
 
 .instagram {
-  color: #f9782b !important;
+  background: linear-gradient(to bottom, #f7752f 0%,#bf2a9f 100%);
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
 }
 
 .twitch {
