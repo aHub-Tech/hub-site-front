@@ -4,7 +4,7 @@ name: Nelson Saraiva
 discord: devNelson#5918
 photo: https://github.com/nsaraiva.png
 IsVerified: true
-hasDiploma: false
+hasFormed: false
 isMVP: false 
 description: Programador com mais de 20 anos de experiência, Astrônomo amador e Maker (IOT) nas horas vagas
 resume:

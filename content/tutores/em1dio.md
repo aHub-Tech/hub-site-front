@@ -5,20 +5,20 @@ name: Caio Emidio
 discord: "Em1dio#0331"
 photo: https://github.com/caio-emidio.png
 IsVerified: true
-hasDiploma: true
+hasFormed: true
 isMVP: false
 description: Bacharel em Ciência da Computação, Streamer e Programador com mais de 9 anos de experiência
 resume:
   link: https://em1.tech
 knowledges:
-  - Nodejs
+  - Node.js
   - Typescript
-  - NestJs
+  - NestJS
   - Python
   - MongoDb
   - SQL
-  - VueJs
-  - NuxtJs
+  - Vue.js
+  - Nuxt.js
 
 contact:
   - name: instagram
