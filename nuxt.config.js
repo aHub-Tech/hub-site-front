@@ -49,6 +49,8 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
+      name: 'Hub',
+      short_name: 'Hub',
       lang: "pt-BR",
     },
   },

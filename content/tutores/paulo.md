@@ -4,7 +4,7 @@ ranking: 2
 name: PauloPc
 discord: "paulopc#8026"
 photo: https://github.com/pcbrsites.png
-IsVerified: true
+isVerified: true
 hasFormed: true
 isMVP: true
 description: Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia de Software
@@ -22,6 +22,8 @@ contact:
     value: https://www.linkedin.com/in/paulo-cesar-27617338/
   - name: github
     value: https://github.com/daviprm
+  - name: discord
+    value: https://discord.gg/user/paulopc#8026   
 ---
 
 Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia de Software
