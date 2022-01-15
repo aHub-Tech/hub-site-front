@@ -3,7 +3,7 @@ title: Backend
 name: Nelson Saraiva
 discord: devNelson#5918
 photo: https://github.com/nsaraiva.png
-IsVerified: true
+isVerified: true
 hasFormed: false
 isMVP: false 
 description: Programador com mais de 20 anos de experiência, Astrônomo amador e Maker (IOT) nas horas vagas

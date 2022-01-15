@@ -35,7 +35,7 @@ export default {
   components: { cardInstructor },
   layout: "site/default",
   async asyncData({ $content, params }) {
-    const tutores = await $content("tutores").sortBy("ranking").fetch();
+    const tutores = await $content("tutores").sortBy("title").fetch();
 
     return {
       tutores,

@@ -6,13 +6,13 @@
         <div class="actions">
           <ul>
             <li v-if="tutor.isMVP">
-              <button type="button" v-on:click="mvp" title="é MVP">
-                <img src="/mvp.png" alt="#" />
+              <button type="button" title="é MVP">
+                <icon-is-mvp />
               </button>
             </li>
             <li v-if="tutor.hasFormed">
-              <button type="button" v-on:click="formed" title="é Formado">
-                <img src="/formed.png" alt="#" />
+              <button type="button" title="é Formado">
+                <icon-is-formed />
               </button>
             </li>
           </ul>
@@ -24,14 +24,14 @@
             </div>
             <div class="person">
               <h4>{{ tutor.title }}</h4>
-              <p class="full-name">{{ tutor.name }} <img v-if="tutor.IsVerified" src="/verified.png" alt="Verified" title="Verificado" /></p>
+              <p class="full-name">{{ tutor.name }} <icon-is-verified :isVerified="tutor.isVerified" width="16" height="16" /></p>
               <p>
                 <span>{{ tutor.discord }}</span>
               </p>
             </div>
             <div class="resume">
-              <button type="button" v-on:click="resume">
-                <img src="/resume.png" alt="#" />
+              <button type="button">
+                <icon-resume />
               </button>
             </div>
           </div>
@@ -201,16 +201,11 @@ export default {
   },
   methods: {
     openContact(contact) {
-      window.open(contact.value);
-    },
-    mvp() {
-      alert('Under construction')
-    },
-    formed() {
-      alert('Under construction')
-    },
-    resume() {
-      alert('Under construction')
+      if (contact.name === 'discord') {
+        window.open(`discord:${contact.value}`)
+      } else {
+        window.open(contact.value);
+      }
     }
   },
 };
@@ -284,6 +279,10 @@ export default {
   height: 36px;
   border-radius: 50%;
   position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item .card .header .actions ul li button {
@@ -332,8 +331,8 @@ export default {
   align-items: center;
 }
 
-.item .card .header .infos .flex .person .full-name img {
-  margin-left: -2px
+.item .card .header .infos .flex .person .full-name svg {
+  margin-left: 4.5px;
 }
 
 .item .card .header .infos .flex .person p {
@@ -376,8 +375,12 @@ export default {
 
 .item .card .header .resume {
   position: absolute;
-  top: 88px;
-  right: -4.5px;
+  top: 96px;
+  right: 4.5px;
+}
+
+.item .card .header .resume svg {
+  transform: rotate(180deg);
 }
 
 .item .card .header .resume button {
