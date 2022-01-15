@@ -201,7 +201,11 @@ export default {
   },
   methods: {
     openContact(contact) {
-      window.open(contact.value);
+      if (contact.name === 'discord') {
+        window.open(`discord:${contact.value}`)
+      } else {
+        window.open(contact.value);
+      }
     }
   },
 };

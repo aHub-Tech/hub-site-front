@@ -23,7 +23,7 @@ contact:
   - name: github
     value: https://github.com/daviprm
   - name: discord
-    value: https://discord.gg/user/paulopc#8026   
+    value: paulopc#8026   
 ---
 
 Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia de Software

@@ -32,7 +32,7 @@ contact:
   - name: github
     value: https://github.com/caio-emidio
   - name: discord
-    value: https://discord.gg/user/Em1dio#0331
+    value: Em1dio#0331
 ---
 
 Bacharel em Ciência da Computação, Streamer e Programador com mais de 9 anos de experiência

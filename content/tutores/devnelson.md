@@ -27,6 +27,6 @@ contact:
   - name: github
     value: https://github.com/nsaraiva
   - name: discord
-    value: https://discord.gg/user/devNelson#5918
+    value: devNelson#5918
 ---
 Programador com mais de 20 anos de experiência, Astrônomo amador e Maker (IOT) nas horas vagas

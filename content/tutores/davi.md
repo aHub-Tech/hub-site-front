@@ -4,7 +4,7 @@ ranking: 1
 name: Davi Mello
 discord: "davii#3306"
 photo: https://github.com/daviprm.png
-isVerified: false
+isVerified: true
 hasFormed: true
 isMVP: true
 description: Desenvolvedor full-stack há mais de 5 anos, cursando Engenharia de Software
@@ -28,7 +28,7 @@ contact:
   - name: github
     value: https://github.com/daviprm
   - name: discord
-    value: https://discord.gg/user/davii#3906
+    value: davii#3906
 ---
 
 Desenvolvedor full-stack há mais de 5 anos, cursando Engenharia de Software
