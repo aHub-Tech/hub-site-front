@@ -4,7 +4,7 @@ ranking: 2
 name: PauloPc
 discord: "paulopc#8026"
 photo: https://github.com/pcbrsites.png
-isVerified: true
+IsVerified: true
 hasFormed: true
 isMVP: true
 description: Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia de Software
