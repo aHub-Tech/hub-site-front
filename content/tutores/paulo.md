@@ -6,7 +6,7 @@ discord: "paulopc#8026"
 photo: https://github.com/pcbrsites.png
 IsVerified: true
 hasDiploma: true
-isMVP: true
+isMVP: false
 description: Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia de Software
 resume:
   link: LinkParaOCV
