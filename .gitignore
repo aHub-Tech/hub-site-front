@@ -94,4 +94,4 @@ sw.*
 
 .env
 .env.*
-!.env.exemplo
+!.env.exemple
