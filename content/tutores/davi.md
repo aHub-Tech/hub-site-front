@@ -5,8 +5,8 @@ name: Davi Mello
 discord: "davii#3306"
 photo: https://github.com/daviprm.png
 isVerified: true
-hasFormed: true
-isMVP: true
+hasDiploma: true
+isMVP: false
 description: Desenvolvedor full-stack há mais de 5 anos, cursando Engenharia de Software
 resume:
   link: LinkParaOCV

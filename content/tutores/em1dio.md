@@ -1,11 +1,11 @@
 ---
 title: Backend
-ranking: 3
+ranking: 4
 name: Caio Emidio
 discord: "Em1dio#0331"
 photo: https://github.com/caio-emidio.png
 isVerified: true
-hasFormed: true
+hasDiploma: true
 isMVP: false
 description: Bacharel em Ciência da Computação, Streamer e Programador com mais de 9 anos de experiência
 resume:
