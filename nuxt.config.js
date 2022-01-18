@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  lang: 'pt-BR',
   head: {
     titleTemplate: "HubTech - %s",
     meta: [
@@ -17,14 +18,22 @@ export default {
     ],
   },
 
+  dir: {
+    components: 'src/components',
+    layouts: 'src/layouts',
+    pages: 'src/pages'
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["~/assets/css/default.css"],
+  css: ["~/src/styles/global.css"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [
+    { path: '~/src/components', extensions: ['vue'] }
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [],
@@ -40,7 +49,7 @@ export default {
   ],
 
   content: {
-    // Options
+    dir: 'src/content'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
