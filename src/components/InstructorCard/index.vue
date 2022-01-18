@@ -24,7 +24,7 @@
             </div>
             <div class="person">
               <h4>{{ tutor.title }}</h4>
-              <p class="full-name">{{ tutor.name }} <icon-is-verified :isVerified="tutor.isVerified" width="16" height="16" /></p>
+              <p class="full-name">{{ tutor.name }} <icon-verified :isVerified="tutor.isVerified" width="16" height="16" /></p>
               <p>
                 <span>{{ tutor.discord }}</span>
               </p>
@@ -99,7 +99,7 @@ export default {
         name: null,
         discord: null,
         photo: null,
-        IsVerified: false,
+        isVerified: false,
         hasDiploma: false,
         isMVP: false,
         resume: {},
