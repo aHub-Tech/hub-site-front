@@ -1,0 +1,31 @@
+.footer {
+  color: rgb(199, 199, 199);
+}
+
+.footer-copyright {
+  padding: 9px 0;
+}
+
+.footer-copyright .copyright-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  margin-bottom: 9px;
+
+  list-style: none;
+}
+
+.footer-copyright .copyright-links li a {
+  font-size: 2em;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-copyright .copyright-links li a i:hover {
+  color: #3bf79f;
+}
+
+.footer-copyright .copyright-text {
+  text-align: center;
+}

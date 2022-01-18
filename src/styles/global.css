@@ -44,3 +44,9 @@ button {
   border: none;
   padding: 0;
 }
+
+
+#__layout {
+  max-width: 1300px;
+  margin: 0 auto;
+}

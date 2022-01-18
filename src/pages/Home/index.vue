@@ -17,20 +17,11 @@
       </div>
       <img src="cover.svg" alt="" />
     </div>
-    <div class="cover_links">
-      <a target="_blank" href="https://github.com/aHub-Tech" class="cover_link">
-        <i class="mdi mdi-github"></i>
-      </a>
-      <a target="_blank" :href="discordLink" class="cover_link">
-        <i class="mdi mdi-discord"></i>
-      </a>
-    </div>
   </main>
 </template>
 
 <script>
 export default {
-  layout: "site/default",
   head() {
     return {
       title: "Inicio",
@@ -44,4 +35,4 @@ export default {
 };
 </script>
 
-<style src="~/assets/css/pages/Home.css" scoped></style>
+<style src="~/src/pages/Home/styles.css" scoped></style>

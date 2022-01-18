@@ -1,0 +1,136 @@
+.yellow {
+  color: #e7bf31;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.green {
+  color: #247953;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.camps_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  justify-content: center;
+  margin-bottom: 27px;
+}
+
+.camps_container .camps_header {
+  flex: 0 0 100%;
+  padding-top: 72px;
+}
+
+.camps_container .camps_header h2 {
+  margin-left: 140px;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.camps_container .camps_header h2 span {
+  color: #F73B91;
+}
+
+.camps_container .camps_header h2 span small {
+  color: #FFFFFF;
+}
+
+.camps_container .camps_content {
+  flex: 0 0 612px;
+}
+
+.camps_container .camps_content .content_item {
+  border: 2px solid #252525;
+  border-radius: 9px;
+  padding: 18px;
+}
+
+.camps_container .camps_content .content_item > h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.camps_container .camps_content .content_item > p {
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+.camps_container .camps_content .content_item > button {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+
+.camps_container .camps_content .content_item:nth-child(1n+2) {
+  margin-top: 27px;
+}
+
+.camps_aside {
+  flex: 0 0 383px;
+  border: 2px solid #252525;
+  border-radius: 9px;
+  height: auto;
+  padding: 18px;
+}
+
+.camps_aside .aside_item h3 {
+  color: #FFFFFF;
+}
+
+.camps_aside .aside_item .aside_item__container {
+  padding: 9px 18px;
+}
+
+.camps_aside .aside_item .aside_item__container > div > header {
+  display: flex;
+  align-items: center;
+}
+
+.camps_aside .aside_item .aside_item__container > div > header > h4 {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 9px;
+}
+
+.camps_aside .aside_item .aside_item__container > div > div {
+  margin-top: 9px;
+}
+
+.camps_aside .aside_item .aside_item__container > div > div > p {
+  font-size: .975em;
+  color: #FFFFFF;
+}
+
+.camps_aside .aside_item .aside_item__container > div > div > button {
+  background-color: #FFFFFF;
+  padding: 4.5px 18px;
+  border-radius: 4.5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .775em;
+  margin-top: 9px;
+  margin-bottom: 18px;
+
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 762px) {
+  .camps_container .camps_header h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .camps_container .camps_content {
+    flex: 0 1 100%;
+    margin: 0 18px;
+  }
+  .camps_container .camps_aside {
+    flex: 1;
+    margin: 0 18px;
+  }
+}

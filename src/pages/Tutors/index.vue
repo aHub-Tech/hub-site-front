@@ -18,10 +18,10 @@
       </div>
       <div class="content">
         <div class="grid">
-          <card-instructor
-            v-for="(tutore, index) in tutores"
-            :key="`${index}-${tutore.name}_tutore`"
-            :tutor="tutore"
+          <InstructorCard
+            v-for="(tutor, index) in tutores"
+            :key="`${index}-${tutor.name}_tutor`"
+            :tutor="tutor"
           />
         </div>
       </div>
@@ -30,12 +30,10 @@
 </template>
 
 <script>
-import cardInstructor from "~/components/cardInstructor.vue";
 export default {
-  components: { cardInstructor },
   layout: "site/default",
   async asyncData({ $content, params }) {
-    const tutores = await $content("tutores").sortBy("title").fetch();
+    const tutores = await $content("tutores").sortBy('ranking').fetch();
 
     return {
       tutores,
@@ -43,7 +41,7 @@ export default {
   },
   head() {
     return {
-      title: "Tutores",
+      title: "Tutores"
     };
   },
   data() {
@@ -53,4 +51,4 @@ export default {
 };
 </script>
 
-<style src="~/assets/css/pages/Tutors.css" scoped></style>
+<style src="~/src/pages/Tutors/styles.css" scoped></style>
