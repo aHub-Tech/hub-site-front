@@ -1,7 +1,7 @@
 ---
 title: FullStack
 ranking: 3
-name: Diogo Costa Santos
+name: Diogo Costa
 discord: "Dida#3387"
 photo: https://github.com/diogocsbr.png 
 isVerified: true
