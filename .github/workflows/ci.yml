@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - master
+      - develop
   pull_request:
     branches:
       - main
-      - master
+      - develop
 
 jobs:
   ci:
@@ -34,13 +34,13 @@ jobs:
         run: echo "::set-output name=dir::$(npm cache dir)"
 
       - name: Cache node_modules 📦
-        uses: actions/cache@v2.1.7
-        id: npm-cache
+        uses: actions/cache@v2
+        id: cache-node-modules
         with:
-          path: ${{ steps.npm-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-npm-
+            ${{ runner.os }}-node-
 
       - name: Install dependencies 👨🏻‍💻
         run: npm i
