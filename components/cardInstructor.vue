@@ -143,6 +143,13 @@ export default {
           color: "#ff7e35",
           fontColor: "#000000",
         },
+        {
+          name: "mobile",
+          class: "mobile",
+          color: "#ff35d3",
+          fontColor: "#000000",
+        }
+        
       ],
     };
   },
