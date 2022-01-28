@@ -66,12 +66,13 @@
 <script>
   export default {
     layout: "site/default",
+    head() {
+        return {
+        title: "HubCamps",
+        };
+    }
   };
-  head() {
-    return {
-      title: "HubCamps",
-    };
-  }
+
 </script>
 
 <style src="~/assets/css/pages/Hubcamps.css" scoped></style>
