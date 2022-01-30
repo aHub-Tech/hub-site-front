@@ -11,8 +11,8 @@ description: Desenvolvedor full-stack há mais de 5 anos, cursando Engenharia de
 resume:
   link: LinkParaOCV
 knowledges:
-  - nodejs
-  - VUEJS
+  - Node.js
+  - Vue.js
   - Typescript
 contact:
   - name: github
