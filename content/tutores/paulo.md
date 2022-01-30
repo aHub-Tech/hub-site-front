@@ -5,8 +5,8 @@ name: PauloPc
 discord: "paulopc#8026"
 photo: https://github.com/pcbrsites.png
 IsVerified: true
-hasFormed: true
-isMVP: true
+hasDiploma: true
+isMVP: false
 description: Desenvolvedor full-stack há mais de 11 anos, cursando Engenharia de Software
 resume:
   link: LinkParaOCV
