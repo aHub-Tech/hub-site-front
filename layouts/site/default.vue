@@ -90,6 +90,7 @@ export default {
           label: "BLOG",
           target: "_blank",
         },
+        { type: "page", to: "/hubcamps", label: "HUBCAMPS" },
       ];
     },
   },
