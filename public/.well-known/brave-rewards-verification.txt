@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ahub.tech
+Token: 4051d014097e73b7653ae5a84261622da9d28fc870ba29f0dfb923d0b766ba17
