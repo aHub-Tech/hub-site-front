@@ -20,14 +20,14 @@
   </h4>
 
   <h2 id="objective" > 🎯 Objectives </h2>
-
-  A brief description about the project and how the project works
+  This project has the object to create, elaborate and discuss the website of the community (https://ahub.tech). Showing the most important information about the community and being a channel to new users.
 
   <h2 id="technologies"> 🛠 Technologies </h2>
 
   The tools used in the construction of the project were:
-
-  - [Name Tech](UrlForTheTech)
+  
+  - [NodeJs](https://nodejs.org/)
+  - [Nuxt](https://nuxtjs.org/)
 
   <h2 id="usage" > 👷 Usage </h2>
 
@@ -35,6 +35,8 @@
 
   ```bash
   # Commands used to start the project.
+  npm install
+  npm run dev
   ```
 
   <h2 id="contribution"> 🤝Contribution </h2>
@@ -42,8 +44,10 @@
   - [Contribution File](./CONTRIBUTING.md)
 
   <h2 id="author"> 💻 Author </h2>
-
-  By Name ❤
+  
+  - [DaviPrm](https://github.com/daviprm/)
+  - [Em1dio](https://github.com/caio-emidio)
+  - [PcBrSites](https://github.com/pcbrsites)
 
   <h2 id="license"> 📝 License </h2>
 
@@ -66,25 +70,27 @@
   </p>
 
   <h4 align="center">
-    🎨 Pseudônimo do projeto
+    🎨 Site Oficial da comunidade Hub Tech
   </h4>
 
   <h2 id="objetivos" > 🎯 Objetivos </h2>
 
-  Uma breve descrição sobre o projeto e como ele funciona
+  Este projeto tem como objetivo criar um site para disponibilizar no https://ahub.tech . Mostrando as principais informacoes da comunidade e sendo um canal de entrada para novos membros.
 
   <h2 id="tecnologia"> 🛠 Tecnologias </h2>
 
   As ferramentas utilizadas na construção do projeto foram:
-
-  - [Name Tech](UrlForTheTech)
+  - [NodeJs](https://nodejs.org/)
+  - [Nuxt](https://nuxtjs.org/)
 
   <h2 id="usos" > 👷 Como usar? </h2>
 
-  - Tecnologias necessárias para rodar localmente.
+  - Tecnologias necessárias para rodar localmente: Node 14+
 
   ```bash
   # Comandos usados para iniciar o projeto.
+  npm install
+  npm run dev
   ```
 
   <h2 id="contribuicao"> 🤝 Contribuições </h2>
@@ -93,8 +99,10 @@
 
 
   <h2 id="autor"> 💻 Autor </h2>
-
-  By Name ❤
+  
+  - [DaviPrm](https://github.com/daviprm/)
+  - [Em1dio](https://github.com/caio-emidio)
+  - [PcBrSites](https://github.com/pcbrsites)
 
   <h2 id="licenca"> 📝 Licença </h2>
 
