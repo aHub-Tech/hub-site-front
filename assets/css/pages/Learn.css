@@ -125,6 +125,7 @@
 
     .learn_container .learn_body {
         width: 100%;
+        padding: 0px 10px;
     }
 
 }
