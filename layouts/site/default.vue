@@ -78,12 +78,7 @@ export default {
       return [
         { type: "page", to: "/", label: "INICIO" },
         { type: "page", to: "/tutores", label: "TUTORES" },
-        {
-          type: "open_link",
-          to: "/discord",
-          label: "QUERO PARTICIPAR",
-          target: "_blank",
-        },
+        { type: "page", to: "/participar", label: "QUERO PARTICIPAR" },
         {
           type: "open_link",
           to: "https://blog.ahub.tech/",
