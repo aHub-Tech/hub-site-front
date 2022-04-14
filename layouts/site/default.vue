@@ -79,6 +79,7 @@ export default {
         { type: "page", to: "/", label: "INICIO" },
         { type: "page", to: "/tutores", label: "TUTORES" },
         { type: "page", to: "/participar", label: "QUERO PARTICIPAR" },
+        { type: "page", to: "/aprender", label: "QUERO APRENDER" },
         {
           type: "open_link",
           to: "https://blog.ahub.tech/",
