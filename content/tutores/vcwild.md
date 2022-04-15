@@ -1,5 +1,5 @@
 ---
-title: Quality Engineer
+title: Quality Eng.
 ranking: 2
 name: Victor Wildner
 discord: "vcwild#8506"

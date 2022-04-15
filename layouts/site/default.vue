@@ -4,7 +4,7 @@
       <div class="header_container">
         <img src="/logo.png" alt="HUB" />
 
-        <template v-for="(item, index) in menus">
+        <template v-for="(item) in menus">
           <nuxt-link
             :key="`header_link-${item.to}-nuxt`"
             v-if="item.type === 'page'"
@@ -38,7 +38,7 @@
           class="mdi mdi-close close_menu"
         ></i>
       </div>
-      <template v-for="(item, index) in menus">
+      <template v-for="(item) in menus">
         <nuxt-link
           :key="`header_link-${item.to}-nuxt-mobile`"
           v-if="item.type === 'page'"
@@ -77,9 +77,9 @@ export default {
       // type [open_link] - usa tag A href
       return [
         { type: "page", to: "/", label: "INICIO" },
-        { type: "page", to: "/tutores", label: "TUTORES" },
         { type: "page", to: "/participar", label: "QUERO PARTICIPAR" },
         { type: "page", to: "/aprender", label: "QUERO APRENDER" },
+        { type: "page", to: "/tutores", label: "TUTORES" },
         {
           type: "open_link",
           to: "https://blog.ahub.tech/",
