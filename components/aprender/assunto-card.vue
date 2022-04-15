@@ -86,6 +86,25 @@ export default {
           }
           return color;
 
+        case "infoBackground":
+          switch (baseColor) {
+            case "white":
+              color = "#FFFFFF";
+              break;
+            case "red":
+              color = "#ffc6c7";
+              break;
+            case "blue":
+              color = "#cdc6ff";
+              break;
+            case "light_blue":
+              color = "#DBD6FF";
+              break;
+            case "grey":
+              color = "#949494";
+          }
+          return color;
+
         case "title":
           switch (baseColor) {
             case "white":
@@ -142,7 +161,7 @@ export default {
     },
 
     setInfoBackground() {
-      const color = this.setColor(this.baseColor, "span");
+      const color = this.setColor(this.baseColor, "infoBackground");
       return {
         backgroundColor: color,
         color: "#3A3A3A",
