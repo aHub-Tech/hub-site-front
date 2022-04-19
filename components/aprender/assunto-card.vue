@@ -13,7 +13,7 @@
       </h2>
     </div>
     <div class="card_footer">
-      <span :style="setSpan">Nenhum Artigo disponível!!</span>
+      <span :style="setSpan"><slot name="footer"> Nenhum Artigo disponível!! </slot></span>
     </div>
     <!-- image -->
     <img :src="source" alt="" />
