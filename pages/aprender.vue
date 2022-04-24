@@ -1,7 +1,7 @@
 <template>
   <main class="learn_container">
     <div class="learn_head">
-      <h4>QUERO<span> APRENDER </span></h4>
+      <h4>QUERO<span> APRENDER</span></h4>
     </div>
     <div class="learn_body">
       <assunto-card
@@ -10,19 +10,13 @@
         :titleColor="block.titleColor"
         :baseColor="block.baseColor"
         :source="block.source"
+        :subjects="block.subjects"
+        :info="block.info"
       >
         <template v-slot:main>
           {{ block.title[0] }} <br />
           {{ block.title[1] }}
         </template>
-        <template v-slot:define>
-          "{{ block.info.quote }}" - <strong> {{ block.info.author }} </strong>
-        </template>
-        <template v-slot:footer>{{
-          block.subjects && block.subjects !== 0
-            ? `${block.subjects} Assuntos disponíveis!!`
-            : "Nenhum Assunto disponível!!"
-        }}</template>
       </assunto-card>
     </div>
   </main>
@@ -40,7 +34,7 @@ export default {
   },
   head() {
     return {
-      title: "learn",
+      title: "Aprender",
     };
   },
   computed: {
@@ -52,6 +46,3 @@ export default {
 </script>
 
 <style src="~/assets/css/pages/Learn.css" scoped></style>
-
-<style scoped>
-</style>

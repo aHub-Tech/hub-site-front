@@ -13,13 +13,19 @@
       </h2>
     </div>
     <div class="card_footer">
-      <span :style="setSpan"><slot name="footer"> Nenhum Artigo disponível!! </slot></span>
+      <span :style="setSpan">
+        {{
+          subjects && subjects !== 0
+            ? `${subjects} Assuntos disponíveis!!`
+            : "Nenhum Artigo disponível!!"
+        }}
+      </span>
     </div>
     <!-- image -->
     <img :src="source" alt="" />
     <div class="card_infos" :style="setInfoBackground">
       <p :style="{ color: '#000000' }">
-        <slot name="define"></slot>
+        "{{ info.quote }}" - <strong> {{ info.author }} </strong>
       </p>
     </div>
   </div>
@@ -41,6 +47,15 @@ export default {
     source: {
       type: String,
       required: false,
+    },
+    subjects: {
+      type: Number,
+      required: false,
+    },
+    info: {
+      type: Object,
+      required: false,
+      default: {quote: "", author: ""},
     },
   },
   methods: {
@@ -183,7 +198,7 @@ export default {
   position: relative;
   overflow: hidden;
   transition: 0.6s ease-in-out;
-  cursor: none; 
+  cursor: none;
 }
 
 .learn_card:hover {
