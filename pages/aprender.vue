@@ -1,7 +1,9 @@
 <template>
   <main class="learn_container">
     <div class="learn_head">
-      <h4>QUERO<span> APRENDER</span></h4>
+      <h4>
+        QUERO<span> APRENDER {{ test }}</span>
+      </h4>
     </div>
     <div class="learn_body">
       <assunto-card
@@ -13,10 +15,8 @@
         :subjects="block.subjects"
         :info="block.info"
       >
-        <template v-slot:main>
-          {{ block.title[0] }} <br />
-          {{ block.title[1] }}
-        </template>
+        {{ block.title[0] }} <br />
+        {{ block.title[1] }}
       </assunto-card>
     </div>
   </main>
@@ -27,6 +27,11 @@ import assuntoCard from "~/components/aprender/assunto-card.vue";
 export default {
   components: { assuntoCard },
   layout: "site/default",
+  data() {
+    return {
+      test: "",
+    };
+  },
   mounted() {
     this.$nextTick(() => {
       this.$store.dispatch("aprender/getBlocks");

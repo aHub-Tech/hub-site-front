@@ -9,7 +9,7 @@
     <div class="card_body">
       <span :style="setSpan">QUANDO QUISER!!</span>
       <h2 :style="setTitleColor">
-        <slot name="main"> AQUI VAI O TITULO </slot>
+        <slot> AQUI VAI O TITULO </slot>
       </h2>
     </div>
     <div class="card_footer">
