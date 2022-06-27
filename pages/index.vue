@@ -8,7 +8,7 @@
         <p>Queridos Hubbles.</p>
         <p>Em Maio de 2021 nasceu a HubTech, com o proposito de unir streamers e pessoas interessadas neste mundo Tech.</p>
         <p>Sob os valores de união, colaboração, transparência e comprometimento, a Hub impactou diversas historias!</p>
-        <p>Porém, em Julho de 2022 notamos que a Hub nao vem sendo tão disruptiva como gostariamos, acabou então se tornando um grupo de amigos.</p>
+        <p>Porém, em Julho de 2022 notamos que a Hub não vem sendo tão eficaz como gostariamos, acabou então se tornando um grupo de amigos.</p>
         <p>Como o objetivo da Hub acabou se perdendo, acreditamos que agora é um momento de cada um dos membros traçarem rumo à novos ares.</p>
         <p>Criamos conexões, escrevemos histórias e com certeza marcamos o ciclo de muitas pessoas.</p>
         <p>Gostaríamos de deixar aqui algumas comunidades que sabemos que tem muitos dos valores da Hub, e, que sempre nos apoiaram desde o inicio:</p>
